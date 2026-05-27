@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "postinstall": "pnpm exec simple-git-hooks && pnpm run build:packages",
+    "postinstall": "pnpm exec simple-git-hooks",
     "dev": "pnpm -r -F @proj-airi/stage-web dev",
     "dev:docs": "pnpm -rF @proj-airi/docs run dev",
     "dev:ui": "pnpm -rF @proj-airi/stage-ui run story:dev",
@@ -26,7 +26,7 @@
     "dev:apps": "pnpm -rF=\"./apps/*\" run --parallel dev",
     "dev:packages": "pnpm -rF=\"./packages/*\" --parallel run dev",
     "build": "pnpm run build:web",
-    "build:web": "turbo run build -F @proj-airi/stage-web",
+    "build:web": "turbo run build -F @proj-airi/stage-web...",
     "build:tamagotchi": "pnpm -rF @proj-airi/stage-tamagotchi run app:build",
     "build:apps": "turbo run build -F=\"./apps/*\"",
     "build:packages": "turbo run build -F=\"./packages/*\"",
