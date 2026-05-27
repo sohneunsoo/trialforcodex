@@ -1,0 +1,12 @@
+node_modules
+**/node_modules
+.pnpm-store
+.corepack
+.pnpm-home
+.turbo
+**/.turbo
+.cache
+**/.cache
+apps/stage-web/dist
+stage-web-dev*.log
+stage-tamagotchi-dev*.log

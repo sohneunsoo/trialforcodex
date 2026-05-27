@@ -1,0 +1,7 @@
+{
+  "id": "nova",
+  "name": "모노시안",
+  "avatarType": "live2d",
+  "promptPath": "./prompt.md",
+  "expressionMapPath": "./expressions.json"
+}
