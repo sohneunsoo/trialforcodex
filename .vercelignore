@@ -8,5 +8,13 @@ node_modules
 .cache
 **/.cache
 apps/stage-web/dist
+apps/server
+apps/stage-tamagotchi
+apps/stage-pocket
+apps/stage-ui
+docs
+services
+plugins
+engines
 stage-web-dev*.log
 stage-tamagotchi-dev*.log
